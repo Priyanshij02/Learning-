@@ -1,0 +1,35 @@
+Q1  What does event-driven programming mean?
+  
+ An event-driven programming approach uses events to trigger various functions. 
+  An event can be anything, such as typing a key or clicking a mouse button. 
+  A call-back function is already registered with the element executes whenever an event is triggered. 
+
+Q2  What is the package.json file?
+The package.json file is the heart of a Node.js system.
+  This file holds the metadata for a particular project. 
+  The package.json file is found in the root directory of any Node application or module
+This is what a package.json file looks like immediately after creating a Node.js project using the command: npm init
+
+You can edit the parameters when you create a Node.js project. 
+
+Q3  How do you create a simple Express.js application?
+  The request object represents the HTTP request and has properties for the request query string, parameters, body, HTTP headers, and so on
+  The response object represents the HTTP response that an Express app sends when it receives an HTTP request.
+    
+ Q4  How do you create a simple Express.js application?
+    const express = require('express'); 
+
+ const app = express(); 
+ const PORT = 3000; 
+
+app.listen(PORT, (error) =>{ 
+	if(!error) 
+		console.log("App is listening on port "+ PORT) 
+	else
+		console.log("Error occurred, server can't start", error); 
+	} 
+); 
+
+ Q5 
+
+  
