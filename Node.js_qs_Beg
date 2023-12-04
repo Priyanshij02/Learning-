@@ -1,0 +1,53 @@
+  https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-interview-questions
+  
+Q1  What is Node.js? Where can you use it?
+  Node.js is an open-source, cross-platform JavaScript runtime environment and library to run web applications outside the client’s browser. 
+  It is used to create server-side web applications.
+
+ it uses an asynchronous >> non blocking and no thread pool . You can use  I/O intensive web applications like video streaming sites. 
+  You can also use it for developing: Real-time web applications, Network applications, General-purpose applications, and Distributed systems.
+
+
+  Q2  How does Node.js work?
+   https://www.simplilearn.com/ice9/free_resources_article_thumb/Node.js_Architecture_Workflow.png
+
+  rqst >> event queue >> event loop >>> block and    non blocking 
+                                        /               \ 
+                                     thread Pool          Process
+
+ Q3  If Node.js is single-threaded, then how does it handle concurrency?
+The Multi-Threaded Request/Response Stateless Model is not followed by the Node JS Platform
+   The Node JS Processing paradigm is heavily influenced by the JavaScript Event-based model and the JavaScript callback system.
+   As a result, Node.js can easily manage more concurrent client requests. 
+   The event loop is the processing model's beating heart in Node.js.
+
+  Q4 Explain callback in Node.js.
+    A callback function is called after a given task. 
+    It allows other code to be run in the meantime and prevents any blocking. 
+    Being an asynchronous platform, Node.js heavily relies on callback.
+  
+  Q5    Explain the difference between frontend and backend development?
+      Frontend refers to the client-side of an application
+    Backend refers to the server-side of an application. 
+ 
+  It typically includes everything that attributes to the visual aspects of a web application
+It generally includes a web server that communicates with a database to serve requests
+
+
+ Q6  What is NPM?
+NPM stands for Node Package Manager, responsible for managing all the packages and modules for Node.js.
+Node Package Manager provides two main functionalities:
+Provides online repositories for node.js packages/modules.
+Provides command-line utility to install Node.js packages
+
+ Q7 hat are the modules in Node.js?
+  Modules are like JavaScript libraries that can be used in a Node.js application to include a set of functions. 
+   To include a module in a app,  use the require() function containing the module's name.
+
+ Q8 What is the purpose of the module .Exports?
+    module.export = App;
+  In Node.js, a module encapsulates all related codes into a single unit of code that can be parsed by moving all relevant functions into a single file.
+
+    Q9 What are some of the most commonly used libraries in Node.js?
+     Express.js and Mongoose 
+      
