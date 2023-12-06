@@ -1,0 +1,13 @@
+// middlewares:
+   client >> app.get ()
+ client -- middleware -- app.get()
+
+ so basically client sends rqst to middle ware (mw) , if rqst seems to be valid then only it will forward the rqst ahead 
+  else , it will send back response to client 
+
+ - it is a function which runs on every (req,res) 
+- it depends that it may forward or not 
+- here it uses next keyword in function.
+- can be use mw
+     app.use(req,res,next)=>{
+  }
