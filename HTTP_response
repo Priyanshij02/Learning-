@@ -1,0 +1,9 @@
+- 100-199 >> Informational response 
+- 200- 299 >> Successful Response 
+- 300- 399 >> Redirection messages 
+- 400- 499 >> Client error response 
+- 500- 599 >> Server error response 
+
+200 - OK
+404- NOT FOUND 
+500- INTERNAL SERVER EROOR 
