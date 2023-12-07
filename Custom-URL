@@ -1,0 +1,7 @@
+// CREATING CUSTOM URL Shortner using Node.js and MVC
+https://www.youtube.com/watch?v=4WvX9dBjiJo&list=PLinedj3B30sDby4Al-i13hQJGQoRQDfPo&index=21
+
+ install >> npm i nanoid  :to genarate unique short url .
+
+ just create MVC model controller and Routes 
+ 
