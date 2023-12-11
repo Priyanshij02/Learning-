@@ -1,0 +1,4 @@
+server side rendering a popular techniqur for rendering client side only single page app(SPA)
+on server .
+SSR technique is helpful when client has slow internet connection and rendering of whole page takes time.
+module -   EJS (Embedded js Template)
