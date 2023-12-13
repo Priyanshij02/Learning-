@@ -1,0 +1,8 @@
+meaning of build :"tsc -- project tsconfig.json
+>> it means directory is root of the TS project.
+it specify root files also required to compile projects.
+
+Q1 If there is any syntax error ?
+ just check for versions of framework you were using. 
+  syntax error in built files 
+  
