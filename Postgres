@@ -1,0 +1,39 @@
+install by pgAdmin 4 
+ then just create databse using
+
+>> createdb "name"
+>> pysql -d "name"
+
+ to enter into pysql
+ >> sudo -i -u postgres  
+
+ to change password 
+>> \password "user"
+
+to change a database  
+>> psql -d postgres
+
+  to check if connected or not 
+>> user=# \conninfo
+
+                            TO CREATE A TABLE:
+
+CREATE TABLE playground (
+    equip_id serial PRIMARY KEY,
+    type varchar (50) NOT NULL,
+    color varchar (25) NOT NULL,
+    location varchar(25) check (location in ('north', 'south', 'west', 'east', 'northeast', 'southeast', 'southwest', 'northwest')),
+    install_date date
+);
+
+## explain: serial is automatic increment no and primary key > value must be unique and not null.
+2 cols   TYPE and COLOR 
+THEN a LOCATION col named and values are inserted
+The last line creates a date column that records the date on which you installed the equipment.
+
+
+ >>INSERT INTO playground (type, color, location, install_date) VALUES ('slide', 'blue', 'south', '2017-04-28');
+INSERT INTO playground (type, color, location, install_date) VALUES ('swing', 'yellow', 'northwest', '2018-08-16');
+
+Retrieve the information you’ve added by typing:
+USER=# SELECT * FROM "table_name"/ playground:
