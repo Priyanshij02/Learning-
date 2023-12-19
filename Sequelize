@@ -1,0 +1,35 @@
+1 
+orm is a teachnique to create 
+Object Relational Mapping (ORM) is a technique used in creating a "bridge" between 
+object-oriented programs and, in most cases, relational databases.
+ ORM EX: users.GetById(20) 
+
+ SQL - SELECT FROM USER ----
+
+ SEQUELIZE:
+
+Sequelize is an easy-to-use and promise-based Node.js ORM tool for Postgres, MySQL, MariaDB, SQLite, DB2, Microsoft SQL Server,
+ It features solid transaction support, relations, eager and lazy loading, read replication and more.
+              MIGRATIONS:
+By using migrations, developers can maintain a record of how the database schema has changed over time,
+and it becomes easier to collaborate with others on a project.
+Additionally, it ensures that everyone working on the project has a consistent and up-to-date database schema.
+
+>> Migrating databases is automatically syncing of databases in all of the environment. 
+Any changes on the database are recorded and synced later through migration command in each system (of the developers) or in production.
+
+   SEEDERS:
+populating a dbase through predefine data 
+Unlike migrations, which are typically used to modify the database schema, seeders focus on the data itself.
+Purpose of Seeders:
+
+
+
+
+
+
+
+
+
+
+
